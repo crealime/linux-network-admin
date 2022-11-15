@@ -43,5 +43,6 @@
 ``history -d 5``— delete the history entry at position 5.
 
 
+
 ---
 [Home](../README.md) -> [CLI](cli.md)
