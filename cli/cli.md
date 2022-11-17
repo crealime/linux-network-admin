@@ -6,6 +6,12 @@
 
 ### [Find](find.md)
 
+### [Disks](disks.md)
+
+### [Directories](directories.md)
+
+### [Files](files.md)
+
 ### [Alias](alias.md)
 
 ---

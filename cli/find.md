@@ -15,3 +15,11 @@
 ``find /home -type p some`` — * named pipes
 
 ``find /home -type s some`` — * sockets
+
+
+
+
+
+
+---
+[Home](../README.md) -> [CLI](cli.md)
