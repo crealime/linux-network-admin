@@ -16,11 +16,11 @@
 
 ``blkid`` — display the type of file system on a block device (which may not be mounted), as well as device-specific attributes
 
-``mkfs`` — build a Linux filesystem
-
 ``fdisk -l /dev/sda`` show 'sda' disk information
 
 ``fdisk /dev/sdb`` create disk layout
+
+``mkfs`` — build a Linux filesystem
 
 ``mkfs.ext4 /dev/sdb5`` — build the ext4 Linux filesystem
 
