@@ -1,10 +1,10 @@
 ### Alias
 
-``alias`` — show all aliases
+`alias` — show all aliases
 
-``alias fjpg="find . | grep -iE '\.jpg$'"`` -> ``fjpg`` = ``find . | grep -iE '\.jpg$'`` — make alias.
+`alias fjpg="find . | grep -iE '\.jpg$'"` -> `fjpg` = `find . | grep -iE '\.jpg$'` — make alias.
 
-``unalias fjpg`` — remove alias
+`unalias fjpg` — remove alias
 
 
 ---

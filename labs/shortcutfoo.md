@@ -2,47 +2,47 @@
 
 ### System Basic
 
-``du`` — display disk usage stats
+`du` — display disk usage stats
 
-``df`` — display free disk space
+`df` — display free disk space
 
-``date`` — show date and time
+`date` — show date and time
 
-``whereis app`` — show where app location is
+`whereis app` — show where app location is
 
-``which app`` — show which app
+`which app` — show which app
 
-``man cmd`` — show man page for cmd
+`man cmd` — show man page for cmd
 
-``free`` — show memory and swap usage
+`free` — show memory and swap usage
 
-``uptime`` — display system uptime
+`uptime` — display system uptime
 
-``w`` — display who is logged in
+`w` — display who is logged in
 
-``finger user`` — show info about user
+`finger user` — show info about user
 
-``whoami`` — display effective username
+`whoami` — display effective username
 
-``cal`` — show calendar
+`cal` — show calendar
 
-``uname -a`` — show kernel info
+`uname -a` — show kernel info
 
 ### Directories Basic
 
-``rm -rf dir`` —  remove directory 'dir' (force)
+`rm -rf dir` —  remove directory 'dir' (force)
 
-``ls -t`` — list current dir contents sorted by mod date
+`ls -t` — list current dir contents sorted by mod date
 
-``mkdir dir`` — make directory 'dir'
+`mkdir dir` — make directory 'dir'
 
-``cd`` — change to home directory
+`cd` — change to home directory
 
-``ls -a`` — list current dir contents including hidden
+`ls -a` — list current dir contents including hidden
 
-``cp -r dir1 dir2`` — copy 'dir1' to 'dir2'
+`cp -r dir1 dir2` — copy 'dir1' to 'dir2'
 
-``cd -`` — change to previous working dir
+`cd -` — change to previous working dir
 
 
 date Show date and time

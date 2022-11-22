@@ -2,45 +2,53 @@
 
 ### Information
 
-``man ls`` — display interactive manual pages of command 'ls'.
+`man ls` — display interactive manual pages of command 'ls'.
 
-``ls --help`` or ``help ls`` — display help page.
+`ls --help` or `help ls` — display help page.
 
-``apropos list`` — search for man pages in 'whatis' database by keyword 'list' (partial match).
+`apropos list` — search for man pages in 'whatis' database by keyword 'list' (partial match).
 
-``whatis list`` — search for man pages in the whatis database for a keyword 'list' (exact match).
+`whatis list` — search for man pages in the whatis database for a keyword 'list' (exact match).
 
-``mandb`` — create an index of reference databases for the above utilities.
+`mandb` — create an index of reference databases for the above utilities.
 
-``which ls`` — search for a program (file) in the search path (PATH).
+`which ls` — search for a program (file) in the search path (PATH).
+
+`stat some-file` show inode information of the file 'some-file'
 
 ### Search
 
-``yum install mlocate`` — install locate.
+`find /dev -name 'pt*' -type d` — find directory with name 'pt*' in '/dev' directory
 
-``updatedb`` — update (initialization) file database.
+`find /dev -name 'pt*' -type f` — find file with name 'pt*' in '/dev' directory
 
-``locate some.txt`` — search for files in the locate database. 
+`find / -inum 358416841` — find file by inode
 
-``locate -b`` ``locate --basename`` — search only in filename.
+`yum install mlocate` — install locate.
 
-``locate -e`` ``locate --existing`` — display only existing files.
+`updatedb` — update (initialization) file database.
 
-``locate -i`` ``locate --ignore-case`` — ignore case when searching.
+`locate some.txt` — search for files in the locate database. 
 
-``locate -r`` ``locate --regexp REGEXP`` — search for regular expression REGEXP.
+`locate -b` `locate --basename` — search only in filename.
 
-``whereis ls`` — search for programs, their man pages and source codes.
+`locate -e` `locate --existing` — display only existing files.
 
-``type ls`` — show how the command will be interpreted by the shell.
+`locate -i` `locate --ignore-case` — ignore case when searching.
+
+`locate -r` `locate --regexp REGEXP` — search for regular expression REGEXP.
+
+`whereis ls` — search for programs, their man pages and source codes.
+
+`type ls` — show how the command will be interpreted by the shell.
 
 ### History
 
-``history`` — show the command history.
+`history` — show the command history.
 
-``history -c`` — delete the command history.
+`history -c` — delete the command history.
 
-``history -d 5``— delete the history entry at position 5.
+`history -d 5`— delete the history entry at position 5.
 
 
 
