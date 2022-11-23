@@ -8,13 +8,21 @@
 
 `apropos list` — search for man pages in 'whatis' database by keyword 'list' (partial match).
 
-`whatis list` — search for man pages in the whatis database for a keyword 'list' (exact match).
+`whatis ls` — short information about the 'ls' command 
 
-`mandb` — create an index of reference databases for the above utilities.
+`whereis ls` — command file location
 
 `which ls` — search for a program (file) in the search path (PATH).
 
+`mandb` — create an index of reference databases for the above utilities.
+
 `stat some-file` show inode information of the file 'some-file'
+
+`ps x` — show list of the process
+
+`ps a` — show list of the process
+
+`ps x | awk '{print $1}'` — show list of the process (only first column)
 
 ### Search
 
