@@ -8,3 +8,8 @@
 
 `ls -la /proc/1262/fd` — file descriptors of the process 1262 (show streams)
 
+
+
+
+---
+[Home](../README.md) -> [CLI](cli.md)

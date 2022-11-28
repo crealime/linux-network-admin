@@ -2,7 +2,7 @@
 
 `gzip -c some-file > some-file.gz` — add file 'some-file1' to archive 'some-file.gz' (without deleting original)
 
-`gunzip –c some-file.gz` — extract file from archive (archive is saved)
+`gunzip -c some-file.gz` — extract file from archive (archive is saved)
 
 `zcat some-file.gz` — show content of the 'some-file.gz' file
 
@@ -24,7 +24,7 @@
 
 `gzexe –d ./ls` — decompression
 
-`tar -czf file.tar.gz source.c source.h` 
+`tar -czf file.tar.gz source.c source.h` — create gzip file archive file.tar.gz from source.c and source.h
 
 `tar -tf file.tar.gz` — read archive content
 

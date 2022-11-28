@@ -105,7 +105,7 @@
 
 `some-cmd >> some-file` write output result of the program 'some-cmd' to the file 'some-file' (append to file)
 
-`find / -type f -user lime > my-files.log  2> error.log` — redirecting output to the file 'my-files.log' and redirecting errors to the file 'error.log'
+`find / -type f -user lime > my-files.log 2> error.log` — redirecting output to the file 'my-files.log' and redirecting errors to the file 'error.log'
 
 
 
