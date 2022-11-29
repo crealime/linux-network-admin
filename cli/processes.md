@@ -22,7 +22,7 @@
 
 `bg 1` — start task 1 in the background
 
-`dd if=/dev/zero of=/dev/null &` — & at the end of the line — run the program in the background 
+`dd if=/dev/zero of=/dev/null &` — & at the end of the line — run the program in the background mode
 
 `fg 1` — take the program 1 from the background to the terminal
 
