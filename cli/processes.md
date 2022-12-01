@@ -50,6 +50,8 @@
 
 `fuser tmp/ping.log` or `lsof tmp/ping.log` — show who is interacting (writing) with the file
 
+or `lsof PID`
+
 ---
 
 

@@ -12,6 +12,10 @@
 
 ### [Files](files.md)
 
+### [Archives](archives.md)
+
+### [Processes](processes.md)
+
 ### [Alias](alias.md)
 
 ---
