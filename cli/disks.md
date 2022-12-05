@@ -38,6 +38,8 @@
 
 `mount /dev/sdb1 /media/1` — mount /dev/sdb1 to the /media/1 directory
 
+mount /dev/sdb1 /mnt/disk2
+
 `mount -r /dev/sdb1 /media/1` — mount /dev/sdb1 to the /media/1 directory (read only)
 
 `mount -o noatime /dev/sdb5 /media/5` — mount /dev/sdb5 to the /media/5 directory (read only)

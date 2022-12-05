@@ -18,5 +18,7 @@
 
 ### [Alias](alias.md)
 
+### [Users access rights](users-access-rights.md)
+
 ---
 [Home](../README.md)
