@@ -81,6 +81,7 @@ Open new session with 'destroyer' user
 `rm /tmp/dir/file` -
 
 ---
+5-4
 
 `chmod g+r /tmp/dir/file` (from creator terminal)
 
@@ -95,6 +96,7 @@ From destroyer terminal:
 `ls -la /tmp/dir` -
 
 ---
+5-5
 
 `chmod g+wx /tmp/dir/file` (from creator terminal)
 
@@ -107,6 +109,7 @@ From destroyer terminal:
 `ls -la /tmp/dir` -
 
 ---
+5-7
 
 `touch /tmp/dir/file7` +
 
@@ -117,6 +120,7 @@ From destroyer terminal:
 `rmdir /tmp/dir` -
 
 ---
+6-1
 
 `su root`
 
@@ -137,6 +141,7 @@ From destroyer terminal:
 `rm /append_only` +
 
 ---
+6-2
 
 `su root`
 

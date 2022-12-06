@@ -1,5 +1,7 @@
 ## Processes
 
+systemd or init
+
 `ps aux -sort` — show processes (more info)
 
 `ps auxwwww -sort` — show processes (more info)

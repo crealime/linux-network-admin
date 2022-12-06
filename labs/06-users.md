@@ -16,7 +16,7 @@
 
 `whereis umount` -> `/usr/bin/umount`
 
-`visudo` add line `creator  ALL=(creator)    NOPASSWD:/usr/bin/mount, /usr/bin/umount`
+`visudo` add line `creator  ALL=(ALL)    NOPASSWD:/usr/bin/mount, /usr/bin/umount`
 
 ---
 
