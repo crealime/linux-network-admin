@@ -4,7 +4,7 @@
 
 `wget http://...` — download from link 
 
-`confidure` — installation configuration
+`configure` — installation configuration
 
 `make install` — install
 
@@ -56,7 +56,7 @@
 
 `yum clean all` — clean all yum cache
 
-`ls /etc/yum/repos.d` — files repositories settings
+`ls /etc/yum.repos.d` — files repositories settings
 
 
 
