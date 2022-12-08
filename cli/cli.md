@@ -20,5 +20,7 @@
 
 ### [Users access rights](users-access-rights.md)
 
+### [Installing and updating software](software.md)
+
 ---
 [Home](../README.md)
