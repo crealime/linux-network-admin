@@ -54,7 +54,9 @@
 
 `man yum.conf` — help about yum configuration
 
-`yum clean all` — clean all yum cache
+`yum clean packages` — clean yum packages from cache
+
+`yum clean all` — clean yum metadata and packages from cache
 
 `ls /etc/yum.repos.d` — files repositories settings
 

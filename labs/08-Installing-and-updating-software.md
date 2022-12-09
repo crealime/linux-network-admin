@@ -8,11 +8,11 @@
 
 4 `yum install epel-release`
 
-5 `yum repolist enabled` and `yum repolist disabled`
+5 `yum repolist --enabled` and `yum repolist --disabled` or `yum repolist --all`
 
 6 `sudo yum install htop` and `htop`
 
-7 `sudo yum provides /etc/sysctl.conf` or `sudo rpm -qf /etc/sysctl.conf` -> `systemd-239-58.0.1.el8_6.8.x86_64`
+7 `sudo yum provides /etc/sysctl.conf` or `sudo yum prov /etc/sysctl.conf` or `sudo rpm -qf /etc/sysctl.conf` -> `systemd-239-58.0.1.el8_6.8.x86_64`
 
 8 `sudo yum remove nmap-ncat`
 
@@ -32,6 +32,7 @@
 ### *
 
 14 `rpm2cpio /var/cache/yum/ol8_appstream-d4d5cd0a0a095846/packages/nmap-ncat-7.70-8.el8.x86_64.rpm | cpio -idmv -D ~/rpm_files`
+`yum info nmap` and `nmap -v`
 
 15 `yum groupinstall "Development Tools"`
 `yum install make`
