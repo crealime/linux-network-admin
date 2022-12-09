@@ -16,6 +16,8 @@
 
 ### [07 File permissions](07-file-permissions.md)
 
+### [08 Installing-and-updating-software](08-Installing-and-updating-software.md)
+
 ### [Shortcutfoo](shortcutfoo.md)
 
 
