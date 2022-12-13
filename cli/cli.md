@@ -22,5 +22,7 @@
 
 ### [Installing and updating software](software.md)
 
+### [Utilities and programs](utilities-programs.md)
+
 ---
 [Home](../README.md)
