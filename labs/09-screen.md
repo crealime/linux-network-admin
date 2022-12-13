@@ -66,6 +66,7 @@ echo $result
 `<Ctrl + d>`
 
 `screen -S current-screen`
+`screen -S current-screen`
 
 `screen -S 2975.current-screen -X sessionname current-screen-2`
 
