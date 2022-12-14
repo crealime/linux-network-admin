@@ -24,5 +24,9 @@
 
 ### [Utilities and programs](utilities-programs.md)
 
+### [Yum](yum.md)
+
+### [Systemd](systemd.md)
+
 ---
 [Home](../README.md)

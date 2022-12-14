@@ -9,7 +9,9 @@
 
 ### 2
 
-1. `crontab -e` `20       *       *       *       *       '' > /tmp/date`
+1. `crontab -e` `*/20       *       *       *       *       '' > /tmp/date`
 2. `crontab -e` `1       9       *       *       mon-fri       echo 'Hello World!'`
 3. `crontab -e` `1       *       *       *       *      sudo cat /var/log/cron | grep 'END EDIT' | wc -l > /tmp/cron_count`
-4. ???
+4. `echo $(date) | awk '{print $2" "$3}'`
+
+echo $(date) | key = awk '{print $2" "$3}' | echo key

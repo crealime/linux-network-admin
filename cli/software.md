@@ -28,11 +28,27 @@
 
 ### yum 
 
+`yum repolist` — list of connected repositories
+
+`ls /etc/yum.repos.d` — files repositories settings
+
+`nano /etc/yum.conf` — yum configuration
+
+`man yum.conf` — help about yum configuration
+
+`yum clean packages` — clean yum packages from cache
+
+`yum clean all` — clean yum metadata and packages from cache
+
 `yum install some-package.rpm` (from local) or `yum install some-package` (from server) — install utility
 
 `yum remove lsof` — remove program 'lsof'
 
 `yum list installed | less` — show all installed programs in the system
+
+`yum list installed htop` — is the specified package installed
+
+`yum list available | less` — list of all available packages
 
 `yum search lsof` -> `lsof.x86_64...` — search 'lsof' program on the yum server
 
@@ -49,16 +65,6 @@
 `yum groupinstall 'System Tools'` — install program group 
 
 `yum groupremove 'System Tools'` — remove program group
-
-`nano /etc/yum.conf` — yum configuration 
-
-`man yum.conf` — help about yum configuration
-
-`yum clean packages` — clean yum packages from cache
-
-`yum clean all` — clean yum metadata and packages from cache
-
-`ls /etc/yum.repos.d` — files repositories settings
 
 
 
