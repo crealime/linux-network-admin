@@ -50,7 +50,7 @@
 
 `yum list available | less` — list of all available packages
 
-`yum search lsof` -> `lsof.x86_64...` — search 'lsof' program on the yum server
+`yum search lsof` -> `lsof.x86_64...` — search 'lsof' program
 
 `yum info lsof.x86_64` — show information about lsof.x86_64
 
