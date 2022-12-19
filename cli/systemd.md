@@ -31,7 +31,9 @@ WantedBy=multi-user.target
 
 `systemctl deamon-reload`
 
-`systemctl list-unit-files` — show all services
+`systemctl list-unit-files'` — show all services
+
+`systemctl list-unit-files | grep 'my.service'` — show my.service services
 
 `systemctl status port-watcher.service` — show status `port-watcher.service`
 
