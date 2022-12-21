@@ -28,5 +28,7 @@
 
 ### [Systemd](systemd.md)
 
+### [Network](network.md)
+
 ---
 [Home](../README.md)
