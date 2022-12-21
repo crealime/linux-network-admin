@@ -156,9 +156,13 @@ Examples:
 
 #### attr
 
-`lsattr some-dir` — show filesystem attributes 
+`lsattr some-dir` — show filesystem attributes
 
-`chattr some-dir` — change filesystem attributes 
+`chattr +i /etc/passwd` — unchangeable
+
+`chattr +a /etc/passwd` — prevent from removing
+
+`chattr -i /etc/passwd` — changeable
 
 
 ---
