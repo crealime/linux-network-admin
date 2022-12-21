@@ -10,7 +10,7 @@
 
 `sudo touch /home/serviceman/services.log`
 
-`sudo chmod a+w /home/serviceman/services.log`
+`sudo chmod a+w /home/serviceman/services.log` or `sudo chown slipper:slipper /home/slipper/services.log`
 
 `sudo nano /home/serviceman/write.sh`
 
