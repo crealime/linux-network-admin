@@ -26,7 +26,7 @@
 
 `rpm -ql coreutils` show a list of programs that contains 'coreutils'
 
-### yum 
+### yum
 
 `yum repolist` — list of connected repositories
 
