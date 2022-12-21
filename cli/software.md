@@ -30,6 +30,8 @@
 
 `yum repolist` — list of connected repositories
 
+`yum repolist all` — list of all repositories
+
 `ls /etc/yum.repos.d` — files repositories settings
 
 `nano /etc/yum.conf` — yum configuration
